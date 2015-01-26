@@ -12,6 +12,7 @@ html {
 }
 body {
   margin: 0;
+  height: 100%
 }
 article,
 aside,
@@ -883,11 +884,12 @@ th {
 .glyphicon-tree-deciduous:before {
   content: "\e200";
 }
-* {
+/** {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-}
+} */
+
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
@@ -3942,7 +3944,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  height: 50px;
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
@@ -4621,7 +4622,7 @@ a.badge:focus {
 }
 .jumbotron {
   padding: 30px 15px;
-  margin-bottom: 30px;
+  margin-bottom: 75px;
   color: inherit;
   
 }
