@@ -1,106 +1,39 @@
 
-/* Space out content a bit */
-body {
-  background-image: url('../photos/limehouse.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
+/* Background image for homepage */
+html {
+  background: url('../photos/limehouse.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-/* Custom page header */
-.header {
-  margin-top: 100px;
-  vertical-align: middle; 
-
-}
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  padding-bottom: 19px;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-}
-
-#freelance-logo {
- height: 120px;
- width: 400px;
- border: 10px solid gold;
- text-align: center;
- padding-top: 20px;
- color: white;
- margin-top: 50px;
- background-image: url('../photos/flstudios-white.jpg');
- background-size: 100%;
- background-repeat: no-repeat;
-}
-
-
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-  text-align: center;
-  background-color: white;
-}
-/* Customize Header */
-@media (min-width: 50px) {
-  .header {
-    max-width: 100%;
-  }
-}
-
-/* Customize container */
-@media (min-width: 768px) {
-  .container {
-    max-width: 100%;
-  }
-}
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
+/* Home page footer */
+#hp-footer.footer {
+  background: inherit;
+  border-top: none;
   text-align: center;
 }
 
+#hp-footer.footer p {
+  color: white;
+}
 
+.container {
+  text-align: center;
+}
 
-.jumbotron .btn {
+.container .btn {
   padding: 14px 24px;
   font-size: 30px;
-  background-color: white;
-  border: 8px solid white;
-  color: black;	
-  vertical-align: bottom;
-  margin-top: 600px;
+  background-color: inherit;
+  border: 20px solid white;
+  color: white;	
+  margin-top: 200px;
+  border-radius: 0px;
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+.container .btn:hover {
+  border-color: #9a8100;
+  color: #9a8100;
 }
-
