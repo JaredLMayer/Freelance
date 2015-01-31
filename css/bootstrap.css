@@ -36,8 +36,6 @@ body {
 }
 
 .footer {
-  position: absolute;
-  bottom: 0px;
   width: 100%;
   height: auto;
   background-color: white;
@@ -45,6 +43,12 @@ body {
   text-align: center;
   padding-top: 5px;
   margin-top: 5px;
+}
+
+.footer .container {
+  width: auto;
+  max-width: 680px;
+  padding: 0px 15px;
 }
 
 .header {
