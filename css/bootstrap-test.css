@@ -27,14 +27,11 @@ body {
  */
 
 .freelance-logo {
-  height: auto;
-  width: auto;
-  max-width: 400px;
-  border: 10px solid #9a8100;
+  height: 100%;
+  width: 100%;
+  border: none;
   margin-top: 50px;
- /* background-image: url('../photos/flstudios-white.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;*/
+
 }
 
 .footer {
