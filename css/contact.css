@@ -12,7 +12,23 @@ h3 {
 #sub-form.container-fluid .btn-default{
   background-color: red;
   color: white;
-  border: 2px solid #9A8100;
   margin-top: 5px;
+  border: 2px solid transparent;
+  -moz-border-image: -moz-linear-gradient(left, #FBC926, #FFFBCC, #C3922E, #9A8100);
+  -webkit-border-image: -webkit-linear-gradient(left, #FBC926, #FFFBCC, #C3922E, #9A8100);
+  border-image: linear-gradient(to right, #FBC926, #FFFBCC, #C3922E, #9A8100);
+  border-image-slice: 1;
 }
+
+#msg-box {
+  float: left;
+  width: 70%;
+}
+
+#checkbox {
+  width: 30%;
+  float: left;
+}
+
+
 

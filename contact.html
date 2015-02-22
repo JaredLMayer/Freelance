@@ -31,22 +31,12 @@
   <div class="header">
     <ul class="nav nav-pills nav-justified"> 
       <li role="presentation"><a href="studio.html">STUDIO</a></li>
-      <li role="presentation" class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="lessons.html" role="button"
-        aria-expanded="false">LESSONS</a>
-          <!--<ul class="dropdown-menu" role="menu">
-            <li><a href="#">Piano</li>
-            <li><a href="#">Saxophone</li>
-            <li><a href="#">Clarinet</li>
-            <li><a href="#">Guitar</li>
-          </ul>
-      </li> IGNORE for now, needs to be fixed-->
+      <li role="presentation"><a href="lessons.html">LESSONS</a></li>
       <li role="presentation"><a href="music.html">MUSIC</a></li>
       <li role="presentation"><a href="bio.html">BIO</a></li>
       <li role="presentation"><a href="contact.html">CONTACT</a></li>
     </ul>
-<h3>Please fill out the form below if you are looking to contact us or gather
-  more information. You can expect to hear from us within 8 hours. Thanks!</h3>
+<h3>Please fill out the form below to contact us. We look forward to hearing from you!</h3>
   </div> <!-- End Header/Navbar-->
 
 <!-- Start Submission Form Area-->
@@ -58,28 +48,34 @@
     placeholder="First & Last Name">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">PHONE</label>
-    <input type="password" class="form-control" id="exampleInputPassword1"
+    <label for="exampleInputemail1">PHONE</label>
+    <input type="email" class="form-control" id="exampleInputPassword1"
     placeholder="(###) ###-####">
   </div>
-<div class="form-group">
-    <label for="exampleInputPassword1">EMAIL</label>
-    <input type="password" class="form-control" id="exampleInputPassword1"
+  <div class="form-group">
+    <label for="exampleInputemail1">EMAIL</label>
+    <input type="email" class="form-control" id="exampleInputPassword1"
     placeholder="user@example.com">
   </div>
-  <label>Reason For Contact</label>
-  <div class="checkbox">
-    <label><input type="checkbox">Book A Studio Session</label>
-  </div>  
-  <div class="checkbox">
-	  <label><input type="checkbox">Private Lessons</label>
-  </div>  
-  <div class="checkbox">
-	<label><input type="checkbox">Trying to get those digits</label>
+  <div class="form-group" id="checkbox">
+	  <label>Reason For Contact</label>
+	  <div class="checkbox">
+		  <label><input type="checkbox">Book A Studio Session</label>
+	  </div>  
+	  <div class="checkbox">
+		  <label><input type="checkbox">Private Lessons</label>
+	  </div>  
+	  <div class="checkbox">
+		  <label><input type="checkbox">Pricing Information</label>
+	  </div>
   </div>
-  <button type="submit" class="btn btn-default">SUBMIT</button>
+   <div class="form-group" id="msg-box">
+    <label>Message</label>
+	  <textarea class="form-control" rows="3" placeholder="Write us."></textarea>
+   </div>
+<button type="submit" class="btn btn-default">SUBMIT</button>
 </form>
-</div> <!--End Sub-Form Container-->
+</div  > <!--End Sub-Form Container-->
 
 
 

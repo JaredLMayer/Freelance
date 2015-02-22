@@ -24,16 +24,39 @@ html {
 }
 
 .container-fluid .btn {
-  padding: 14px 24px;
   font-size: 30px;
   background-color: inherit;
   border: 20px solid white;
   color: white;	
-  margin-top: 100px;
+  margin-top: 60px;
   border-radius: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  padding: 10px 5px;
+}
+
+.container-fluid .btn p {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
 }
 
 .container-fluid .btn:hover {
-  border-color: #9a8100;
-  color: #9a8100;
+  color: #FFFBCC;
+  border: 20px solid transparent;
+  -moz-border-image: -moz-linear-gradient(left, #FBC926, #FFFBCC, #C3922E, #9A8100);
+  -webkit-border-image: -webkit-linear-gradient(left, #FBC926, #FFFBCC, #C3922E, #9A8100);
+  border-image: linear-gradient(to right, #FBC926, #FFFBCC, #C3922E, #9A8100);
+  border-image-slice: 1;
+}
+
+.freelance-logo-hp {
+  border: none; 
+  max-width: 85%;
+  margin-top: 15px;
+}
+
+#head-hp.header {
+  margin-top: 40px;
 }
