@@ -9,6 +9,7 @@ html {
 }
 
 #main-bio {
+   
     background-color: activecaption;
     
    /* default fallback */
@@ -16,7 +17,7 @@ background: rgb(255, 255, 255) transparent;
 /* nice browsers */
 background: rgba(255, 255, 255, .7);
 
-    font-family: fantasy;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
     text-align: center;
     padding: 10px;
@@ -34,7 +35,31 @@ background: rgba(255, 255, 255, .7);
    
    margin-top: 10px;
 }
+#bio1 { 
+    max-width: 40%;
+    float: left;
+    margin: 20px;
+} 
+#bio2  {
+    
+    max-width: 40%;
+    float: right;
+    margin: 20px;
+    
+}          
+        
 #name {
     color:#99FF33;
-
 }
+
+#footer-bio  {
+        background : transparent;
+        border: none;
+    }
+    
+p {
+        padding: 0 20px;
+        text-align: left;
+    }    
+    
+    
